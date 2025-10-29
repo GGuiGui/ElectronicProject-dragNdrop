@@ -42,3 +42,6 @@ coverage/
 # Electron Packager or Builder output
 release/
 *.asar
+
+
+package-lock.json
