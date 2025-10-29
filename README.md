@@ -22,6 +22,7 @@ D. 작업자가 수정 요청내용에 대하여 추가 작업 후 다시 push(�
             ***반복***
 E. 관리자 승인 후 마지막으로 내용 커밋 및 푸시하여 병합 진행
 F. 다시 커밋했습니다.
+G. 중간에 pull Request 대상이 변경될 경우 git rebase CGB[변경된 대상 브랜치임] 명령어로 원본 브랜치를 변경함
 
 
 # ElectronicProject-dragNdrop
