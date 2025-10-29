@@ -9,6 +9,7 @@ const process = require('process');
 let logDir = `${process.cwd()}/logs`;
 if(process.platform == "darwin"){
   logDir = path.join(app.getPath('home'), 'electron/logs');
+  console.log("tsete");
 }
 
 const logger = setupLogger(logDir);

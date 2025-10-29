@@ -43,5 +43,4 @@ coverage/
 release/
 *.asar
 
-
 package-lock.json
