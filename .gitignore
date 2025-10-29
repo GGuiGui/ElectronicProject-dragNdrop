@@ -44,3 +44,4 @@ release/
 *.asar
 
 package-lock.json
+dist/builder-debug.yml
