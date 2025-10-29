@@ -1,3 +1,17 @@
+# git 풀 리퀘스트 커밋 방법
+임시 브랜치 명: 각 작업의 명칭
+A. 임시 브랜치 생성
+   git checkout -b CGB-pullRequest-Test
+B. 수정 내용 임시 브랜치에 푸시
+   git push origin CGB-pullRequest-Test
+C. 풀 리퀘스트 후
+   로컬 브랜치 삭제
+   git branch -D CGB-pullRequest-Test
+   1. 삭제된 원격 브랜치를 로컬에서도 목록에서 제거
+      git fetch -p
+   2. 브랜치 목록 리로드
+      git branch -r
+
 # ElectronicProject-dragNdrop
 일렉트로닉을 통한 브라우저 드래그앤 드랍[맥OS 및 윈도우OS 빌드]
 
@@ -23,4 +37,4 @@ C. 빌드 명령어
    1. macOS( M시리즈 및 intel 혼용 )
       npm run build:mac
    2. windowsOS
-      npm run build:win
+      npm run build:win sdsds
