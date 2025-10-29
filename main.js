@@ -8,7 +8,6 @@ const process = require('process');
 // --- Logger Setup ---
 let logDir = `${process.cwd()}/logs`;
 if(process.platform == "darwin"){
-  console.log(1111);
   logDir = path.join(app.getPath('home'), 'electron/logs');
 }
 
