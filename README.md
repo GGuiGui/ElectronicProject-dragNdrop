@@ -1,15 +1,17 @@
 # git 풀 리퀘스트 커밋 방법
+임시 브랜치 명: 각 작업의 명칭
 A. 임시 브랜치 생성
-   git checkout -b CGB-update
+   git checkout -b CGB-pullRequest-Test
 B. 수정 내용 임시 브랜치에 푸시
-   git push origin CGB-update
+   git push origin CGB-pullRequest-Test
 C. 풀 리퀘스트 후
    로컬 브랜치 삭제
-   git branch -D CGB-update
+   git branch -D CGB-pullRequest-Test
    1. 삭제된 원격 브랜치를 로컬에서도 목록에서 제거
       git fetch -p
    2. 브랜치 목록 리로드
       git branch -r
+=> 변경되었는지 기입 -> 다시 상세하게 설명하면 이 임시 브랜치는 완료되고 소스를 합칠겁니다.
 
 # ElectronicProject-dragNdrop
 일렉트로닉을 통한 브라우저 드래그앤 드랍[맥OS 및 윈도우OS 빌드]
