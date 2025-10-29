@@ -24,5 +24,3 @@ C. 빌드 명령어
       npm run build:mac
    2. windowsOS
       npm run build:win
-
-      내용 추가
