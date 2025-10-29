@@ -27,8 +27,6 @@ G. 중간에 pull Request 대상이 변경될 경우 git rebase CGB[변경된 �
    1. git pull origin CGB
    2. git checkout CGB-pullRequest-Test2
    3. 이렇게 아예 브랜치를 다시 받아서 체크아웃하여 변경된 부분 수정 후 커밋할 것
-   s
-
 
 # ElectronicProject-dragNdrop
 일렉트로닉을 통한 브라우저 드래그앤 드랍[맥OS 및 윈도우OS 빌드]
