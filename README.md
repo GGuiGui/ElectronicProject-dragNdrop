@@ -4,6 +4,8 @@ A. 임시 브랜치 생성
 B. 수정 내용 임시 브랜치에 푸시
    git push origin CGB-update
 C. 풀 리퀘스트 후
+   로컬 브랜치 삭제
+   git branch -D CGB-update
    1. 삭제된 원격 브랜치를 로컬에서도 목록에서 제거
       git fetch -p
    2. 브랜치 목록 리로드
