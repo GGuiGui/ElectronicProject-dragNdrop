@@ -23,4 +23,4 @@ C. 빌드 명령어
    1. macOS( M시리즈 및 intel 혼용 )
       npm run build:mac
    2. windowsOS
-      npm run build:win
+      npm run build:win sdsds
