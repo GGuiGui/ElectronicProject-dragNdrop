@@ -23,13 +23,13 @@ A. OS별 모듈 설치 명령어
       2. `package-lock.json` 파일 삭제:
          del package-lock.json
       3. 패키지 재설치:
-         npm install
+         npm install electron --save-dev
 
    macOS (및 Linux)
       1. `node_modules` 폴더와 `package-lock.json` 파일 삭제:
          rm -rf node_modules package-lock.json
       2. 패키지 재설치:
-         npm install
+         npm install electron --save-dev
 
 B. 실행 명령어
    1. npm start
