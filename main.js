@@ -111,6 +111,7 @@ app.whenReady().then(() => {
 function replaceOSfilePath(filePath) {
   filePath = filePath.replace(/^file:\/*/, ""); //맨 앞의 'file:///' 제거
   if (process.platform == "darwin") {
+    filePath = "/" + filePath;
   } else if (process.platform == "win32") {
     // 네트워크 경로 (IP로 시작하는 경우)
     if (/^\d{1,3}(\.\d{1,3}){3}\//.test(filePath)) {
