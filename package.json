@@ -17,6 +17,7 @@
       "config.json"
     ],
   "win": {
+    "icon": "",
     "target": [
       {
         "target": "nsis",
@@ -28,6 +29,7 @@
     ]
   },
     "mac": {
+      "icon": "",
       "target": [
         {
           "target": "dmg",
